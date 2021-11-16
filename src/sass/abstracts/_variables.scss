@@ -1,0 +1,33 @@
+//* COLORS
+$primary-color: #369dd6;
+$secondary-color: #70b2d7;
+$tertiary-color: #d7ebf7;
+$cuaternary-color: #646d7a;
+
+$white-color: #fff;
+$black-color: #000;
+
+$primary-text-color: #075988;
+$secondary-text-color: #9f9f9f;
+
+//* SHADOWS
+$rgba-shadow-10: rgba($black-color, 0.1);
+$rgba-shadow-15: rgba($black-color, 0.15);
+$rgba-shadow-20: rgba($black-color, 0.2);
+$rgba-shadow-25: rgba($black-color, 0.25);
+$rgba-shadow-40: rgba($black-color, 0.4);
+
+//* FONT
+$font-family-title: "Cabin", sans-serif;
+$default-font-size: 1.6rem;
+
+//* MEDIA QUERIES
+$bp-giant: 112.5em; //* 1800px
+$bp-huge: 103.125em; //* 1650px
+$bp-grand: 87.5em; //* 1400px
+$bp-largest: 75em; //* 1200px
+$bp-large: 68.75em; //* 1100px
+$bp-medium: 56.25em; //* 900px
+$bp-small: 37.5em; //* 600px
+$bp-smallest: 31.25em; //* 500px
+$bp-tiny: 25em; //* 400px

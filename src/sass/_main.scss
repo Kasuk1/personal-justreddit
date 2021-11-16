@@ -1,0 +1,25 @@
+//* IMPORT ABSTRACTS
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+//* IMPORT ABSTRACTS
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+//* IMPORT COMPONENTS
+@import "components/forms/search";
+@import "components/layout/navbar";
+@import "components/items/categorie";
+
+//* IMPORT LAYOUT
+@import "layout/grid/navbar";
+@import "layout/grid/board";
+
+//* IMPORT VIEWS
+@import "views/app";
+@import "views/main/categories";
+@import "views/main/posts";
+
+//* IMPORT LOADING

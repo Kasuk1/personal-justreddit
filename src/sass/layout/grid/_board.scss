@@ -1,0 +1,21 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] minmax(9rem, 10.14rem) [col-end]);
+    column-gap: 2.5rem;
+    justify-content: center;
+    padding: 0 2.5rem;
+
+    @media only screen and (max-width: $bp-grand) {
+        grid-template-columns: repeat(10, [col-start] minmax(7.5rem, 9rem) [col-end]);
+        column-gap: 1.5rem;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        grid-template-columns: repeat(8, [col-start] minmax(2.5rem, 7.5rem) [col-end]);
+    }
+
+    @media only screen and (max-width: $bp-tiny) {
+        grid-template-columns: repeat(5, [col-start] minmax(1rem, 5.5rem) [col-end]);
+        column-gap: 2rem;
+    }
+}
