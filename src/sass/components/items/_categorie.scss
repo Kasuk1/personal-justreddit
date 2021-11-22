@@ -5,10 +5,10 @@
 
     height: 28rem;
     border-radius: 0.5rem;
-    box-shadow: 1rem 2rem 2.5rem $rgba-shadow-20;
+    box-shadow: 0.2rem 0.2rem 1rem $rgba-shadow-20;
     padding: 1.5rem 1.2rem;
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: all 0.3s;
 
     display: flex;
     flex-direction: column-reverse;
@@ -22,6 +22,7 @@
     }
 
     &:hover {
+        box-shadow: 0.2rem 2rem 3rem $rgba-shadow-20;
         transform: scale(1.02);
     }
 

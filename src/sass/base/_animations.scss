@@ -1,0 +1,63 @@
+@keyframes backgroundColorLoading {
+    0% {
+        background: linear-gradient(to right, $primary-color, $primary-color 100%);
+    }
+
+    5% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 0%, $primary-color 100%);
+    }
+
+    10% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 10%, $primary-color 100%);
+    }
+
+    20% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 20%, $primary-color 100%);
+    }
+
+    30% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 30%, $primary-color 100%);
+    }
+
+    40% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 40%, $primary-color 100%);
+    }
+
+    50% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 50%, $primary-color 100%);
+    }
+
+    60% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 60%, $primary-color 100%);
+    }
+
+    70% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 70%, $primary-color 100%);
+    }
+
+    80% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 80%, $primary-color 100%);
+    }
+
+    90% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 90%, $primary-color 100%);
+    }
+
+    95% {
+        background: linear-gradient(to right, $primary-color, $primary-color-light 100%, $primary-color 100%);
+    }
+
+    100% {
+        background: linear-gradient(to right, $primary-color, $primary-color 100%);
+    }
+}
+
+@keyframes opacityLoading {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

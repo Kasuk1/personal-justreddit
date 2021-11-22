@@ -7,7 +7,6 @@ import { useMediaQuery } from '../../../hooks/useMediaQuery';
 export const Navbar = () => {
     const matchMedia = useMediaQuery("(max-width: 600px");
 
-
     return (
         <div className="navbar">
             <div className="logo">

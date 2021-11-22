@@ -1,5 +1,6 @@
 //* COLORS
 $primary-color: #369dd6;
+$primary-color-light: rgba($primary-color, 0.2);
 $secondary-color: #70b2d7;
 $tertiary-color: #d7ebf7;
 $cuaternary-color: #646d7a;
@@ -31,3 +32,4 @@ $bp-medium: 56.25em; //* 900px
 $bp-small: 37.5em; //* 600px
 $bp-smallest: 31.25em; //* 500px
 $bp-tiny: 25em; //* 400px
+$bp-ant: 18.75em; //* 300px

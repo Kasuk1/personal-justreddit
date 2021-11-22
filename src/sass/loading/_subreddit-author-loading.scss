@@ -1,0 +1,32 @@
+.subreddit-author-loading {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    &__image {
+        background-color: $primary-color;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    &__prefixed {
+        background-color: $primary-color;
+        width: 8rem;
+        height: 1.5rem;
+        border-radius: 0.6rem;
+    }
+
+    &__author {
+        background-color: $primary-color;
+        width: 16rem;
+        height: 1.5rem;
+        border-radius: 0.6rem;
+    }
+}

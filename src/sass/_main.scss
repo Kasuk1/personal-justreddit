@@ -12,10 +12,17 @@
 @import "components/forms/search";
 @import "components/layout/navbar";
 @import "components/items/categorie";
+@import "components/items/post-item";
+@import "components/items/subreddit-author";
+@import "components/filter/filter";
 
 //* IMPORT LAYOUT
+@import "layout/grid/app";
 @import "layout/grid/navbar";
 @import "layout/grid/board";
+@import "layout/grid/left-side";
+@import "layout/grid/right-side";
+@import "layout/grid/categories";
 
 //* IMPORT VIEWS
 @import "views/app";
@@ -23,3 +30,6 @@
 @import "views/main/posts";
 
 //* IMPORT LOADING
+@import "loading/posts-loading";
+@import "loading/post-item-loading";
+@import "loading/subreddit-author-loading";

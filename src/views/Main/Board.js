@@ -1,12 +1,12 @@
 import React from 'react'
 import { Categories } from './Categories/Categories'
-import { Posts } from './Posts/Posts'
+import { PopularPosts } from './PopularPosts/PopularPosts'
 
 export const Board = () => {
     return (
         <div className="board">
             <Categories />
-            <Posts />
+            <PopularPosts />
         </div>
     )
 }

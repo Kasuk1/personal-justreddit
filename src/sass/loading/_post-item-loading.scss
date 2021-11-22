@@ -1,0 +1,83 @@
+.post-item-loading {
+    background-color: $tertiary-color;
+    padding: 2.5rem 2rem;
+    border-radius: 0.6rem;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 3rem;
+
+    &__image {
+        background-color: $primary-color;
+        width: 30rem;
+        min-width: 15rem;
+        height: 20rem;
+        border-radius: 0.6rem;
+        animation: opacityLoading 0.7s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+    }
+
+    &__info {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        animation: opacityLoading 0.7s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+
+        &--left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        &--right {
+            align-self: center;
+        }
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        animation: opacityLoading 0.7s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+
+        &--paragraph {
+            &-1 {
+                background-color: $primary-color;
+                width: 30rem;
+                height: 1.8rem;
+                border-radius: 0.6rem;
+
+                @media only screen and (max-width: $bp-small) {
+                    width: 15rem;
+                }
+            }
+            &-2 {
+                background-color: $primary-color;
+                width: 23rem;
+                height: 1.8rem;
+                border-radius: 0.6rem;
+
+                @media only screen and (max-width: $bp-small) {
+                    width: 15rem;
+                }
+            }
+        }
+    }
+
+    &__button {
+        background-color: $primary-color;
+        width: 14.3rem;
+        height: 4.5rem;
+        border-radius: 2.5rem;
+        margin-top: 1.5rem;
+        animation: opacityLoading 0.7s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+    }
+
+    &__score {
+        background-color: $primary-color;
+        width: 4.5rem;
+        height: 8rem;
+        border-radius: 2rem;
+    }
+}

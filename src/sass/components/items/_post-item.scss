@@ -1,0 +1,84 @@
+.post-item {
+    background-color: $tertiary-color;
+    padding: 2.5rem 2rem;
+    margin: 2rem 0;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 3rem;
+
+    &__image {
+        background-color: transparent;
+        width: 30rem;
+        min-width: 15rem;
+
+        & img {
+            width: 100%;
+            border-radius: 0.6rem;
+            box-shadow: 1rem 2rem 5rem $rgba-shadow-25;
+        }
+    }
+
+    &__info {
+        flex-grow: 2;
+
+        display: flex;
+        gap: 1rem;
+
+        &--left {
+            flex-grow: 1;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        &--right {
+            align-self: center;
+        }
+    }
+
+    &__title {
+    }
+
+    &__button-comments {
+        background-color: $primary-color;
+        color: $white-color;
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: 1.4rem;
+        padding: 1.2rem 2.5rem;
+        margin-top: 1.5rem;
+        border: none;
+        border-radius: 2.5rem;
+        box-shadow: 0.2rem 0.5rem 0.8rem $rgba-shadow-25;
+        cursor: pointer;
+        transition: all 0.1s;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0rem 0.2rem 0.9rem $rgba-shadow-25;
+        }
+
+        &:active {
+            transform: scale(0.95);
+            box-shadow: 0.2rem 0.2rem 0.3rem $rgba-shadow-25;
+        }
+    }
+
+    &__score {
+        color: $primary-color;
+        font-size: 1.8rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--icon {
+            font-size: 3rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+    }
+}
