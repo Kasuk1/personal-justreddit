@@ -8,6 +8,20 @@
 
 html {
     font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-grand) {
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 60.5%;
+    }
+
+    @media only screen and (max-width: $bp-tiny) {
+        font-size: 50.5%;
+    }
 }
 
 body {

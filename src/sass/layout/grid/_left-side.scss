@@ -1,13 +1,16 @@
-.categories {
+.left-side {
+    grid-column: 2 / 6;
+
     @media only screen and (max-width: $bp-grand) {
+        grid-column: 1 / 5;
     }
 
     @media only screen and (max-width: $bp-medium) {
+        grid-column: 1 / 3;
     }
 
     @media only screen and (max-width: $bp-small) {
-        overflow-x: auto;
-        overflow-y: hidden;
+        grid-column: 1 / -1;
     }
 
     @media only screen and (max-width: $bp-tiny) {

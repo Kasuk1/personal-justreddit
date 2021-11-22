@@ -12,9 +12,12 @@ export const Categories = () => {
     ]
 
     return (
-        <div className="categories">
-            <h2 className="heading-2 u-max-grid-column">Categories</h2>
-            {categoriesList.map(categorie => <Categorie key={categorie.id} categorie = {categorie} />)}
+        <div className="left-side">
+            <h2 className="heading-2 u-m-bottom-1">Categories</h2>
+            <div className="categories">
+                {categoriesList.map(categorie => <Categorie key={categorie.id} categorie = {categorie} />)}
+            </div>
         </div>
+        
     )
 }
