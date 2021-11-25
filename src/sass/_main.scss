@@ -10,10 +10,15 @@
 
 //* IMPORT COMPONENTS
 @import "components/forms/search";
+@import "components/forms/button-return";
 @import "components/layout/navbar";
 @import "components/items/categorie";
+@import "components/items/comments";
+@import "components/items/comment";
 @import "components/items/post-item";
-@import "components/items/subreddit-author";
+@import "components/items/subreddit-mini";
+@import "components/items/subreddit-info";
+@import "components/items/user-mini";
 @import "components/filter/filter";
 
 //* IMPORT LAYOUT
@@ -33,3 +38,4 @@
 @import "loading/posts-loading";
 @import "loading/post-item-loading";
 @import "loading/subreddit-author-loading";
+@import "loading/subreddit-info-loading";

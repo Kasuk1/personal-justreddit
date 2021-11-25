@@ -1,32 +1,34 @@
 .subreddit-author-loading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  animation: opacityLoading 0.7s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+
+  &__image {
+    background-color: $primary-color;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+  }
+
+  &__info {
     display: flex;
-    align-items: center;
-    gap: 0.8rem;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
 
-    &__image {
-        background-color: $primary-color;
-        width: 4.5rem;
-        height: 4.5rem;
-        border-radius: 50%;
-    }
+  &__prefixed {
+    background-color: $primary-color;
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 0.6rem;
+  }
 
-    &__info {
-        display: flex;
-        flex-direction: column;
-        gap: 0.2rem;
-    }
-
-    &__prefixed {
-        background-color: $primary-color;
-        width: 8rem;
-        height: 1.5rem;
-        border-radius: 0.6rem;
-    }
-
-    &__author {
-        background-color: $primary-color;
-        width: 16rem;
-        height: 1.5rem;
-        border-radius: 0.6rem;
-    }
+  &__author {
+    background-color: $primary-color;
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 0.6rem;
+  }
 }

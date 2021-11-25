@@ -1,0 +1,25 @@
+.user-mini {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &__image {
+        background-color: $secondary-color;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+
+        & img {
+            width: 100%;
+            transform: scale(1.1);
+        }
+    }
+
+    &__name {
+        font-size: 1.5rem;
+    }
+
+    &__created {
+        color: rgba($black-color, 0.7);
+    }
+}

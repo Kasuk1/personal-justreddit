@@ -1,38 +1,38 @@
 .categorie {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    height: 28rem;
-    border-radius: 0.5rem;
-    box-shadow: 0.2rem 0.2rem 1rem $rgba-shadow-20;
-    padding: 1.5rem 1.2rem;
-    cursor: pointer;
-    transition: all 0.3s;
+  height: 28rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 1rem $rgba-shadow-20;
+  padding: 1.5rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
 
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 
-    @media only screen and (max-width: $bp-medium) {
-        height: 22rem;
-    }
+  @media only screen and (max-width: $bp-medium) {
+    height: 22rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    height: 18rem;
+  }
+
+  &:hover {
+    box-shadow: 0.2rem 2rem 3rem $rgba-shadow-20;
+    transform: scale(1.02);
+  }
+
+  &__name {
+    color: $white-color;
+    font-size: 2.7rem;
+    font-weight: 600;
 
     @media only screen and (max-width: $bp-small) {
-        height: 18rem;
+      font-size: 2rem;
     }
-
-    &:hover {
-        box-shadow: 0.2rem 2rem 3rem $rgba-shadow-20;
-        transform: scale(1.02);
-    }
-
-    &__name {
-        color: $white-color;
-        font-size: 2.7rem;
-        font-weight: 600;
-
-        @media only screen and (max-width: $bp-small) {
-            font-size: 2rem;
-        }
-    }
+  }
 }
