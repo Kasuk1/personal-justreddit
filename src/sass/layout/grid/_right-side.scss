@@ -1,15 +1,19 @@
 .right-side {
-    grid-column: 6 / 12;
+  grid-column: 6 / 12;
 
-    @media only screen and (max-width: $bp-grand) {
-        grid-column: 5 / 11;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 
-    @media only screen and (max-width: $bp-medium) {
-        grid-column: 3 / 9;
-    }
+  @media only screen and (max-width: $bp-grand) {
+    grid-column: 5 / 11;
+  }
 
-    @media only screen and (max-width: $bp-small) {
-        grid-column: 1 / -1;
-    }
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 3 / 9;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    grid-column: 1 / -1;
+  }
 }

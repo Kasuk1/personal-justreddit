@@ -1,7 +1,7 @@
-import React from 'react'
-
 export const SubReddit = () => {
     return (
-        <div></div>
-    )
-}
+        <div className="left-side">
+            Info
+        </div>
+    );
+};

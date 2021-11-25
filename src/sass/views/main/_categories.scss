@@ -1,15 +1,15 @@
 .categories {
-    @media only screen and (max-width: $bp-grand) {
-    }
+  @media only screen and (max-width: $bp-grand) {
+  }
 
-    @media only screen and (max-width: $bp-medium) {
-    }
+  @media only screen and (max-width: $bp-medium) {
+  }
 
-    @media only screen and (max-width: $bp-small) {
-        overflow-x: auto;
-        overflow-y: hidden;
-    }
+  @media only screen and (max-width: $bp-small) {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
 
-    @media only screen and (max-width: $bp-tiny) {
-    }
+  @media only screen and (max-width: $bp-tiny) {
+  }
 }

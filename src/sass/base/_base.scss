@@ -1,29 +1,29 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 
-    @media only screen and (max-width: $bp-grand) {
-    }
+  @media only screen and (max-width: $bp-grand) {
+  }
 
-    @media only screen and (max-width: $bp-medium) {
-    }
+  @media only screen and (max-width: $bp-medium) {
+  }
 
-    @media only screen and (max-width: $bp-small) {
-        font-size: 60.5%;
-    }
+  @media only screen and (max-width: $bp-small) {
+    font-size: 60.5%;
+  }
 
-    @media only screen and (max-width: $bp-tiny) {
-        font-size: 50.5%;
-    }
+  @media only screen and (max-width: $bp-tiny) {
+    font-size: 50.5%;
+  }
 }
 
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }

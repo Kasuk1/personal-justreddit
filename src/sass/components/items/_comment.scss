@@ -1,0 +1,18 @@
+.comment {
+    background-color: $tertiary-color;
+    border-radius: 0.6rem;
+    padding: 2.5rem 3rem;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: rgba($color: $secondary-color, $alpha: 0.5);
+    }
+
+    &__body {
+        font-size: 1.4rem;
+    }
+}

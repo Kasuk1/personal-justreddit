@@ -1,0 +1,36 @@
+.sub-reddit-mini {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+
+  &__image {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: $primary-color;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.5rem 0.6rem $rgba-shadow-15;
+
+    & img {
+      width: 100%;
+      border: none;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  &__info {
+  }
+
+  &__prefixed {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: -0.6rem;
+  }
+
+  &__author {
+    color: $secondary-text-color;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+}

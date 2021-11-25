@@ -1,0 +1,30 @@
+.subreddit-info {
+    background-color: $tertiary-color;
+    padding: 2.5rem 2rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    &__description {
+        color: rgba($color: $black-color, $alpha: 0.6);
+        font-size: 1.6rem;
+    }
+
+    &__members {
+        align-self: flex-end;
+        color: rgba($color: $black-color, $alpha: 0.7);
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__subscribers {
+    }
+
+    &__actives {
+    }
+}
