@@ -1,44 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# JustReddit
 
-## Available Scripts
+This project was planned to be part of my portfolio and will probably receive updates through my learning process. The first requirements were delivered by Codecademy and it's part of my Front-End Enginner Path's curriculum as well.
 
-In the project directory, you can run:
+Now I'm going to divide the entire process followed to the final result of this application. But before that, I will mention some important technologies used in the entire stack (This project start with Front-end objective, probably improved in the future through Back-end).
 
-### `yarn start`
+## Technologies
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- HTML, CSS, JS
+- SCSS
+- React
+- Redux / Redux Toolkit
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Process
 
-### `yarn test`
+Now I'm going to divide the entire process followed to the final result of this application.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Wireframe
 
-### `yarn build`
+The wireframing of this project was made in [Figma](https://www.figma.com/proto/1u9bH8RhuQ5hcpAIzaiyES/Personal-Project---Reddit-Client?page-id=2%3A29&node-id=885%3A752&viewport=258%2C48%2C0.17&scaling=min-zoom) and was useful to structure the components that will be used in the React project.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here's an example for [web](https://files.fm/thumb_show.php?i=qnaf2jtzm). And here's one for [mobile](https://files.fm/thumb_show.php?i=adk8buses) devices.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Prototype
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The prototype is medium-fidelity and was made in Figma as well. Does not contain neither animations nor functionality, but have a close approach to the final design to be implemented.
 
-### `yarn eject`
+Here's an example for [web](https://files.fm/thumb_show.php?i=f6ejkwkna), you can see that has the structure proposed in the wireframing. The same applied for [mobile](https://files.fm/thumb_show.php?i=wp59f2n5a) devices.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Front-end
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app is based in React in collaboration with Redux to manage the state. The process to structure the initial files and folders is tough to me but I tried my best at this point and tried to avoid to much code in a single file as well.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The style was made with SCSS without any framework. The structure folder was implemented isolated just for the styles.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Another point is the loading state. With Redux was possible to tracked all the loading state when I made async requests and can have an state for the loaded and rejected state. The loading state 's design was purely implemented with SCSS but this wasn't prepared in the wireframe process though.
 
-## Learn More
+## Future Work
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I will probably implement a Back-end to this app, but before we need to think in something that have sens to be stored. It will be useful to my learning path though.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Copyright
+
+You can use this project as your will, but can't claimed as yours with the code or design base.
