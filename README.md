@@ -33,7 +33,7 @@ The app is based in React in collaboration with Redux to manage the state. The p
 
 The style was made with SCSS without any framework. The structure folder was implemented isolated just for the styles.
 
-Another point is the loading state. With Redux was possible to tracked all the loading state when I made async requests and can have an state for the loaded and rejected state. The loading state 's design was purely implemented with SCSS but this wasn't prepared in the wireframe process though.
+Another point is the loading state. With Redux was possible to tracked all the loading state when I made async requests and can have an state for the loaded and rejected state. The loading state's design was purely implemented with SCSS but this wasn't prepared in the wireframe process though.
 
 ## Future Work
 
