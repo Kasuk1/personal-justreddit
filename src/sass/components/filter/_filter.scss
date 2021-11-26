@@ -14,12 +14,18 @@
     color: $primary-color;
     padding: 0.5rem 2rem;
     border-radius: 3rem;
+    text-decoration: none;
     cursor: pointer;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 0.5rem;
     transition: all 0.18s;
+
+    &.active {
+      background-color: $primary-color;
+      color: $white-color;
+    }
 
     &:hover {
       background-color: $primary-color;

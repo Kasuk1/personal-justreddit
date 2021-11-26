@@ -6,6 +6,11 @@ export const getPopularPosts = createAsyncThunk(
   (filter) => Reddit.getPopularPosts(filter)
 );
 
+export const searchPosts = createAsyncThunk(
+  "posts/searchPosts",
+  (string) => Reddit.searchPosts(string)
+);
+
 export const postsSlice = createSlice({
   name: "posts",
   initialState: {
@@ -29,7 +34,20 @@ export const postsSlice = createSlice({
       .addCase(getPopularPosts.rejected, (state) => {
         state.getPostsLoading = false;
         state.getPostsError = true;
-      });
+      })
+      .addCase(searchPosts.pending, (state) => {
+        state.getPostsLoading = true;
+        state.getPostsError = false;
+      })
+      .addCase(searchPosts.fulfilled, (state, action) => {
+        state.getPostsLoading = false;
+        state.getPostsError = false;
+        state.posts = action.payload;
+      })
+      .addCase(searchPosts.rejected, (state) => {
+        state.getPostsLoading = false;
+        state.getPostsError = true;
+      })
   },
 });
 
