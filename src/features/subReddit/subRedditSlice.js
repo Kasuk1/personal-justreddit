@@ -23,13 +23,6 @@ export const subRedditSlice = createSlice({
       .addCase(getAboutSubReddit.fulfilled, (state, action) => {
         state.getAboutSubRedditLoading = false;
         state.getAboutSubRedditError = false;
-        const { display_name, display_name_prefixed, icon_img } =
-          action.payload.data;
-        state.subReddit = { display_name, display_name_prefixed, icon_img };
-        /* state.subReddit = {
-                    ...state.subReddit,
-                    [display_name] : {display_name, display_name_prefixed, icon_img}
-                }; */
       })
       .addCase(getAboutSubReddit.rejected, (state) => {
         state.getAboutSubRedditLoading = false;

@@ -1,8 +1,8 @@
 import { loadingSubRedditAuthor } from "./loadingSubRedditAuthor";
 
-export const loadingPostItem = () => {
+export const loadingPostItem = (num) => {
   return (
-    <div className="post-item-loading">
+    <div className="post-item-loading" key={num}>
       <div className="post-item-loading__image"></div>
       <div className="post-item-loading__info">
         <div className="post-item-loading__info--left">
