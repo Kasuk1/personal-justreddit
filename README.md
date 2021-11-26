@@ -10,6 +10,7 @@ Now I'm going to divide the entire process followed to the final result of this 
 - SCSS
 - React
 - Redux / Redux Toolkit
+- ReactRouter v6
 
 ## Process
 
