@@ -1,7 +1,7 @@
 import React from "react";
 import { Filter } from "../../../components/filter/Filter";
 import { Posts } from "../../../features/posts/Posts";
-import { Categories } from "../Categories/Categories";
+import { Categories } from "../../../components/lists/Categories/Categories";
 
 export const PopularPosts = () => {
 
