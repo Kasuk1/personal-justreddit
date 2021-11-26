@@ -34,8 +34,7 @@ export const Reddit = {
     },
 
     async getPopularPosts(filter) {
-        const endpoint = `https://www.reddit.com/r/popular/${filter ? filter : ""
-            }.json`;
+        const endpoint = `https://www.reddit.com/r/popular/${filter ? filter : ""}.json`;
         const response = await fetch(endpoint);
 
         const json = await response.json();
@@ -96,5 +95,23 @@ export const Reddit = {
 
         const json = await response.json();
         return json;
-    }
+    },
+
+    async searchPosts(string) {
+        const endpoint = `https://www.reddit.com/search.json?q=${string}`;
+        const response = await fetch(endpoint);
+
+        const json = await response.json();
+
+        //Pointing result json data
+        const dataPostsArr = json.data.children.map(({ data }) => data);
+
+        //Mapping and processing through post data obtained with subreddit together
+        const popularPosts = dataPostsArr.map(this.processPostSubRedditInfo);
+
+        //Resolving promises returned from processPostSubRedditInfo()
+        const finalPostsResolved = await Promise.all(popularPosts);
+
+        return finalPostsResolved;
+    },
 };

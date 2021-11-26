@@ -24,7 +24,7 @@ export const postDetailSlice = createSlice({
             .addCase(getPostComments.fulfilled, (state, action) => {
                 state.getPostCommentsLoading = false;
                 state.getPostCommentsError = false;
-                console.log(action.payload);
+                /* console.log(action.payload); */
                 state.postInfo = action.payload.postInfo;
                 state.postComments = action.payload.postComments;
             })
