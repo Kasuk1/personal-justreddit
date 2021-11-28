@@ -36,6 +36,10 @@ The style was made with SCSS without any framework. The structure folder was imp
 
 Another point is the loading state. With Redux was possible to tracked all the loading state when I made async requests and can have an state for the loaded and rejected state. The loading state's design was purely implemented with SCSS but this wasn't prepared in the wireframe process though.
 
+### Deployment
+
+The app is deployed in [Netlify](https://gifted-bartik-a08374.netlify.app/).
+
 ## Future Work
 
 I will probably implement a Back-end to this app, but before we need to think in something that have sens to be stored. It will be useful to my learning path though.
