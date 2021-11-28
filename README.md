@@ -30,7 +30,7 @@ Here's an example for [web](https://files.fm/thumb_show.php?i=f6ejkwkna), you ca
 
 ### Front-end
 
-The app is based in React in collaboration with Redux to manage the state. The process to structure the initial files and folders is tough to me but I tried my best at this point and tried to avoid to much code in a single file as well.
+The app is based in React in collaboration with Redux to manage the state. The process to structure the initial files and folders is tough to me but I tried my best at this point and tried to avoid too much code in a single file as well.
 
 The style was made with SCSS without any framework. The structure folder was implemented isolated just for the styles.
 
