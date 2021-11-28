@@ -40,6 +40,9 @@
     ]
   },
   "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
     "prettier": "2.4.1",
     "sass": "^1.43.4"
   }
