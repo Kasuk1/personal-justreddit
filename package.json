@@ -7,11 +7,11 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@reduxjs/toolkit": "^1.5.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "html-react-parser": "^1.4.0",
-    "marked": "^4.0.4",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "html-react-parser": "^1.4.1",
+    "marked": "^4.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.3",
@@ -43,7 +43,6 @@
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.2",
-    "prettier": "2.4.1",
-    "sass": "^1.43.4"
+    "sass": "^1.44.0"
   }
 }
